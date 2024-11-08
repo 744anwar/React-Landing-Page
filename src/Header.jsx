@@ -24,7 +24,7 @@ const Header = () => {
           </button>
         </div>
         {isMenuOpen && (
-          <div className="absolute top-20 left-6 z-10 w-full bg-white flex flex-col items-start">
+          <div className="absolute top-20 left-6 z-10 max-w-xl md:w-full bg-white flex flex-col items-start overflow-x-hidden">
             <nav className="flex flex-col items-start w-full">
               <ul className="flex flex-col gap-3 w-full">
                 <li>
